@@ -1,5 +1,5 @@
 {
-  "name": "vuetube",
+  "name": "vue-tube",
   "version": "1.0.0",
   "description": "Youtbe player component for vue.js 2.x",
   "main": "dist/vue-tube.js",
