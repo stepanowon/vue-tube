@@ -6,9 +6,6 @@ var commonConfig = {
     output: {
         path: path.resolve(__dirname + '/dist/'),
     },
-    externals: {
-      moment: 'moment'
-    },
     module: {
       loaders: [
         {
