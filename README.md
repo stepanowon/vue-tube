@@ -11,7 +11,7 @@ MIT
 #### CDN - install
 ~~~
 <script type="text/javascript" src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
-<script type="text/javascript" src="http://cdn.rawgit.com/stepanowon/vue-tube/master/dist/vue-tube.min.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/stepanowon/vue-tube/master/dist/vue-tube.min.js"></script>
 <script type="text/javascript">
     Vue.use(VueTube)
 </script>
