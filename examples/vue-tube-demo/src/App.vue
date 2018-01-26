@@ -10,7 +10,7 @@
       <button @click="stopCurrentVideo">Stop</button>
       <button @click="pauseCurrentVideo">Pause</button>
     </div>
-    <VueTube ref="vueTube" :videoid="play.video_id" :width="400" :height="300" :autoplay="1" :loop="play.loop" :listType="play.listType" 
+    <VueTube ref="vueTube" :videoid="play.video_id" :width="640" :height="480" :autoplay="1" :loop="play.loop" :listType="play.listType" 
       :list="play.list" @ended="onEnded" @paused="onPaused" @played="onPlayed"/>
   </div>
 </template>
