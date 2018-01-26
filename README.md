@@ -1,14 +1,17 @@
 # vue-tube 
-Youtube Player Component for Vue.js 2.x. 
-This is based on https://developers.google.com/youtube/player_parameters?hl=en
-Email: stepanowon@hotmail.com
+Youtube Player Component for Vue.js 2.x.
+This is based on https://developers.google.com/youtube/player_parameters?hl=en 
+
+> Contact : stepanowon@hotmail.com (Stephen Won : 원형섭)
+>
+> Online Demo : [jsfiddle](https://jsfiddle.net/v0wffu6z), [single html](http://sample.bmaster.kro.kr/vuetube-sample.html) 
 ## License
 MIT
 ## Usage  
 #### CDN - install
 ~~~
 <script type="text/javascript" src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
-<script type="text/javascript" src="http://cdn.rawgit.com/stepanowon/vue-tube/master/dist/vue-tube.min.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/stepanowon/vue-tube/master/dist/vue-tube.min.js"></script>
 <script type="text/javascript">
     Vue.use(VueTube)
 </script>
@@ -89,7 +92,6 @@ export default {
       - If the listType parameter value is playlist, then the list parameter value specifies a YouTube playlist ID. In the parameter value, you need to prepend the playlist ID with the letters PL as shown in the example below.
       - if you want to use this parameter, videoid parameter must not be specified. 
  
- ##
- ### Sample Page
- http://sample.bmaster.kro.kr/vuetube-sample.html
+
+
 
