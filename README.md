@@ -91,7 +91,20 @@ export default {
       - If the listType parameter value is user_uploads, then the list parameter value identifies the YouTube channel whose uploaded videos will be loaded.
       - If the listType parameter value is playlist, then the list parameter value specifies a YouTube playlist ID. In the parameter value, you need to prepend the playlist ID with the letters PL as shown in the example below.
       - if you want to use this parameter, videoid parameter must not be specified. 
- 
+##
+#### methods
+    * playVideo()
+    * stopVideo()
+    * mute()
+    * unMute()
+    * setVolume(number) : number => 0~100
+    * getVolume() 
+    * setSize(width, height) : yout can set player size on run-time
+
+## events
+    * ended : when current video is ended
+    * paused : when current video is pauded 
+    * played : when video is played
 
 
 
