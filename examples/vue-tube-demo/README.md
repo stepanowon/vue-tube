@@ -1,6 +1,6 @@
 # youtube_test
 
-> A Vue.js project
+> Sample Application for vue-tube component test..
 
 ## Build Setup
 
