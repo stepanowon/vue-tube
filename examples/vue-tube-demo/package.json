@@ -1,28 +1,17 @@
 {
-  "name": "vue-tube",
-  "version": "0.1.0",
-  "description": "Youtbe player component for vue.js 2.x",
-  "main": "dist/vue-tube.js",
+  "name": "youtube_test",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "",
+  "private": true,
   "scripts": {
-    "build": "rimraf ./dist && webpack --config ./webpack.config.js"
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "build": "node build/build.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stepanowon/vue-tube.git"
-  },
-  "keywords": [
-    "Youtube",
-    "Player",
-    "Vue.js"
-  ],
-  "author": "Stephen Won",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/stepanowon/vue-tube/issues"
-  },
-  "homepage": "https://github.com/stepanowon/vue-tube#readme",
   "dependencies": {
-    "vue": "^2.5.13"
+    "vue": "^2.5.2",
+    "vue-tube": "^0.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -60,5 +49,14 @@
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.9.1",
     "webpack-merge": "^4.1.0"
-  }
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
