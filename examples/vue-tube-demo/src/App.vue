@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import VueTube from './components/VueTube'
+import VueTube from 'vue-tube'
 
 export default {
   name: 'App',
