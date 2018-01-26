@@ -99,7 +99,7 @@ export default {
   * unMute()
   * setVolume(number) : number => 0~100
   * getVolume() 
-  * setSize(width, height) : yout can set player size on run-time
+  * setSize(width, height) : you can set player size on run-time
 
 ## events
   * ended : when current video is ended
