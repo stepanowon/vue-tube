@@ -2,7 +2,7 @@
 Youtube Player Component for Vue.js 2.x.
 This is based on https://developers.google.com/youtube/player_parameters?hl=en 
 
-> Contact : stepanowon@hotmail.com 
+> Contact : stepanowon@hotmail.com (Stephen Won : 원형섭)
 >
 > Online Demo : [jsfiddle](https://jsfiddle.net/v0wffu6z), [single html](http://sample.bmaster.kro.kr/vuetube-sample.html) 
 ## License
