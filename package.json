@@ -1,0 +1,19 @@
+{
+  "name": "vue-tube",
+  "version": "1.0.1",
+  "description": "this pacakge has been deprecated. you can use [youtube-vue](https://github.com/stepanowon/youtube-vue) instead of vue-tube.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stepanowon/vue-tube.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stepanowon/vue-tube/issues"
+  },
+  "homepage": "https://github.com/stepanowon/vue-tube#readme"
+}
